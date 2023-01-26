@@ -1,0 +1,17 @@
+/**
+ * Una clase para representar círculos situados sobre el plano.
+ * Cada círculo queda determinado por su radio junto con las 
+ * coordenadas de su  centro.
+ * @version 1.2, 24/12/04
+ * @author Rafa Caballero
+ */
+public class Circulo {
+    protected double x,y; // coordenadas del centro
+    protected double r;  // radio del círculo
+    
+    /** 
+     * Crea un círculo a partir de su origen su radio.
+     * @param x La coordenada x del centro del círculo.
+     * @param y La coordenada y del centro del círculo.
+     * @param r El radio del círculo. Debe ser mayor o igual a 0.
+     */

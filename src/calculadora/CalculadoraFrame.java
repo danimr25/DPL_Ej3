@@ -15,9 +15,7 @@ public class CalculadoraFrame extends javax.swing.JFrame {
      * Creates new form CalculadoraFrame
      */
 
-    public dpl(){
-        
-    }
+
     public CalculadoraFrame() {
         initComponents();
     }
